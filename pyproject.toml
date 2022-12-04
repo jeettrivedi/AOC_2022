@@ -1,0 +1,23 @@
+[project]
+name = "aoc_2022"
+version = "0.0.1"
+authors = [{name="Jeet Trivedi", email="jtriv@riseup.net"},]
+description = "Advent Of Code 2022 Solutions in Python"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jeettrivedi/aoc_2022"
+"Bug Tracker" = "https://github.com/jeettrivedi/aoc_2022/issues"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests",
+]

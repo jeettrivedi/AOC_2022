@@ -7,6 +7,8 @@ from aoc_2022.day_03.part_1 import sol as d3p1
 from aoc_2022.day_03.part_2 import sol as d3p2
 from aoc_2022.day_04.part_1 import sol as d4p1
 from aoc_2022.day_04.part_2 import sol as d4p2
+from aoc_2022.day_05.part_1 import sol as d5p1
+from aoc_2022.day_05.part_2 import sol as d5p2
 
 pretty_print_header(1)
 print(f'The solution to day 1 part 1 is {d1p1("data/1/data.txt")}')
@@ -23,3 +25,7 @@ print(f'The solution to day 3 part 2 is {d3p2("data/3/data.txt")}')
 pretty_print_header(4)
 print(f'The solution to day 4 part 1 is {d4p1("data/4/data.txt")}')
 print(f'The solution to day 4 part 2 is {d4p2("data/4/data.txt")}')
+
+pretty_print_header(5)
+print(f'The solution to day 5 part 1 is {d5p1("data/5/data.txt")}')
+print(f'The solution to day 5 part 2 is {d5p2("data/5/data.txt")}')

@@ -2,6 +2,10 @@
 
 Advent of code 2022 solutions. 
 
+## Installation/Usage
+
+To setup, simply run `setup.sh`. 
+
 ## Problem Descriptions
 
 ### Day 1

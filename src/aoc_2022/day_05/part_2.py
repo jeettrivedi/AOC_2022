@@ -7,10 +7,6 @@ def execute_step(stack:dict[List], step: dict[str]):
     stack[step['to']] += stack[step['from']][-step['count']:]
     stack[step['from']] = stack[step['from']][:-step['count']]
     return stack
-    # stack.f
-    # for i in range(step['count']):
-    #     stack[step['to']].append(stack[step['from']])
-    # return stack
 
 
 def sol(input_file_path: str):
